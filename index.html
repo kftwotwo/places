@@ -9,6 +9,44 @@
     <title></title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="myForm">
+            <div class="input-group">
+              <label for="placeName">Place</label>
+              <input type="text" id="userPlace" class="form-control">
+            </div>
+            <div class="input-group">
+              <label for="year">Year</label>
+              <input type="text" id="userYear" class="form-control">
+            </div>
+            <div class="input-group">
+              <label for="climate">Climate</label>
+              <input type="text" id="userClimate" class="form-control">
+            </div>
+            <div class="input-group">
+              <label for="notes">Notes</label>
+              <input type="text" id="userNotes" class="form-control">
+            </div>
+            <button type="submit" name="button">Submit</button>
+          </form>
+          <div class="output">
+            <ul id="outputList">
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div>
+            <ul id="hidden">
+              <li><span id="displayPlace"></span></li>
+              <li><span id="displayYear"></span></li>
+              <li><span id="displayClimate"></span></li>
+              <li><span id="displayNotes"></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
